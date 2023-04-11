@@ -13,5 +13,5 @@ This plugin is designed to be user-friendly and easy to use, with a clean and si
 - [x] Char Count
 - [x] Copy Button
 - [ ] Save conversation - WIP
-- [ ] Maintaine Answers' format - WIP
+- [ ] Maintain Answers' format - WIP
 - [ ] Add Prompt Helper
