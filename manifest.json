@@ -1,0 +1,31 @@
+{
+  "name": "ChatGPT Companion",
+  "version": "0.1.0",
+  "description": "Saving time and life",
+  "permissions": ["storage", "tabs"],
+  "host_permissions": ["https://chat.openai.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://chat.openai.com/*"],
+      "js": ["contentScript.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+
+      ],
+      "matches": ["https://chat.openai.com/*"]
+    }
+  ],
+  "action": {
+    "default_icon": {
+      "16": "assets/icon.png",
+      "24": "assets/icon.png",
+      "32": "assets/icon.png"
+    },
+    "default_title": "ChatGPT Companion",
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 3
+}
